@@ -34,3 +34,10 @@ keymap.set("n", "<leader>vc", "<cmd>:VenvSelectCached<cr>")
 -- bufferline
 keymap.set("n", "<leader>ll", ":bnext<cr>")
 keymap.set("n", "<leader>hh", ":bprevious<cr>")
+
+-- toggleterm
+keymap.set("n", "<leader>th", "<cmd>ToggleTerm size=15 direction=horizontal<cr>")
+keymap.set("n", "<leader>tv", "<cmd>ToggleTerm size=80 direction=vertical<cr>")
+keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<cr>")
+keymap.set("n", "<leader>tp", "<cmd>lua _PYTHON_TOGGLE()<cr>")
+keymap.set("n", "<leader>tn", "<cmd>lua _NODE_TOGGLE()<cr>")
